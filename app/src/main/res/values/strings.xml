@@ -23,9 +23,9 @@
 
     <!-- BOTTOM NAVIGATION VIEW -->
     <string name="bottom_navigation_menu_rappels">Rappels</string>
-    <string name="bottom_navigation_menu_depenses">Depenses</string>
+    <string name="bottom_navigation_menu_depenses">Budget</string>
     <string name="bottom_navigation_menu_liste">Liste</string>
-    <string name="bottom_navigation_menu_reglages">Reglages</string>
+    <string name="bottom_navigation_menu_reglages">Réglages</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -44,4 +44,7 @@
     <string name="surnomcoloc">surnomColoc</string>
     <string name="textview">textview</string>
     <string name="colocSupp">Vous avez quitter votre colocation !</string>
+    <string name="budget">Budget</string>
+    <string name="liste">Liste</string>
+    <string name="rappels">Rappels</string>
 </resources>
