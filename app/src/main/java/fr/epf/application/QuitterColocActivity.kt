@@ -30,7 +30,7 @@ class QuitterColocActivity : AppCompatActivity() {
             findViewById<Button>(R.id.btn_annuler_quitter)
 
         btnAnnulerQuitterColoc.setOnClickListener{
-            val intent = Intent(this,ParametresActivity::class.java)
+            val intent = Intent(this,ParametresFragment::class.java)
             startActivity(intent)
         }
 

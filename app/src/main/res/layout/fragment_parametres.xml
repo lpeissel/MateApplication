@@ -7,7 +7,7 @@
     android:background="@color/white"
     android:orientation="vertical"
     android:weightSum="7"
-    tools:context=".ParametresActivity">
+    tools:context=".ParametresFragment">
 
 
     <LinearLayout
