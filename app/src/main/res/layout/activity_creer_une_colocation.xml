@@ -105,7 +105,7 @@
 
 
             <EditText
-                android:id="@+id/text_input_email_colocataire"
+                android:id="@+id/text_input_email_colocataire1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"

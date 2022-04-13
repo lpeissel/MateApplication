@@ -1,126 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@color/white"
     android:orientation="vertical"
     android:weightSum="7"
-    tools:context=".IdentificationColocataireActivity">
+    tools:context=".PasserCouronneActivity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
-        android:orientation="vertical"
-        android:weightSum="2"
-        android:gravity="center_horizontal">
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_marginStart="27dp">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo_mate_sans_titre">
+        </ImageView>
+
+        <TextView
+            android:layout_width="201dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="bottom"
-            tools:ignore="NestedWeights">
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/parametres"
+            android:textColor="@color/gris_fonce"
+            android:textSize="35sp">
 
-            <ImageView
-                android:layout_width="175dp"
-                android:layout_height="185dp"
-                android:src="@drawable/logo_mate"/>
-        </LinearLayout>
+        </TextView>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:fontFamily="@font/poppins_semibold"
-                android:text="@string/slogan"
-                android:textColor="#000000"
-                android:textSize="15sp">
-            </TextView>
-        </LinearLayout>
     </LinearLayout>
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:orientation="vertical"
-        android:weightSum="2"
-        android:layout_weight="4"
+        android:layout_weight="1"
         android:gravity="center">
 
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:fontFamily="@font/poppins_semibold"
-                android:text="@string/qui_es_tu"
-                android:textColor="#095CF7"
-                android:textSize="20sp">
-            </TextView>
-
-        </LinearLayout>
-
-        <Button
-            android:id="@+id/btn_coloc1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_btn_identification_colocataire"
-            android:fontFamily="@font/poppins_medium"
-            android:text="@string/nom"
-            android:textColor="#3F4148"
-            android:textColorHint="#3F4148"
-            android:textAllCaps="false"
-            android:textSize="15sp"
-            android:layout_marginBottom="10dp">
-
-        </Button>
-
-
-        <Button
-            android:id="@+id/btn_coloc2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_btn_identification_colocataire"
-            android:fontFamily="@font/poppins_medium"
-            android:text="@string/nom"
-            android:textColor="#3F4148"
-            android:textAllCaps="false"
-            android:textSize="15sp"
-            android:layout_marginBottom="10dp">
-
-        </Button>
-
-        <Button
-            android:id="@+id/btn_coloc3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_btn_identification_colocataire"
-            android:fontFamily="@font/poppins_medium"
-            android:text="@string/nom"
-            android:textColor="#3F4148"
-            android:textAllCaps="false"
-            android:textSize="15sp"
-            android:layout_marginBottom="10dp">
-
-        </Button>
-
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/a_qui_souhaites_tu_passer_la_couronne"
+            android:textColor="@color/bleu_moyen"
+            android:textSize="20sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat">
+        </TextView>
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
+        <Button
+            android:id="@+id/btn_couronne_coloc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn_quitter"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/nom"
+            android:textColor="#3F4148"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_couronne_coloc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn_quitter"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/nom"
+            android:textColor="#3F4148"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_couronne_coloc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn_quitter"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/nom"
+            android:textColor="#3F4148"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_couronne_coloc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn_quitter"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/nom"
+            android:textColor="#3F4148"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp">
+
+        </Button>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -129,19 +132,19 @@
         android:gravity="center_horizontal">
 
         <Button
-            android:id="@+id/btn_verifier_mail"
+            android:id="@+id/btn_valider_passage_couronne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_btn_creer"
             android:fontFamily="@font/poppins_semibold"
-            android:text="@string/verifier_mon_mail"
-            android:textColor="#FFFFFF"
+            android:text="@string/valider"
+            android:textColor="@color/white"
             android:textAllCaps="false"
             android:textAlignment="center"
             android:textSize="20sp">
 
         </Button>
-    </LinearLayout>
 
+    </LinearLayout>
 
 </LinearLayout>

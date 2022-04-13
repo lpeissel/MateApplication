@@ -14,19 +14,18 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val verificationIdColocation = findViewById<EditText>(R.id.identifiant_coloc).text
+        var verificationIdColocation = findViewById<EditText>(R.id.identifiant_coloc).text
         val rejoindreColocation = findViewById<Button>(R.id.btn_rejoindre_coloc)
         val creerColocation = findViewById<Button>(R.id.btn_creer_coloc)
 
         rejoindreColocation.setOnClickListener {
-
-            val stringVerificationIdColocation = verificationIdColocation.toString()
-            val intVerificationIdColoc = stringVerificationIdColocation.toInt()
-            //Log.d("patrick", "$intVerificationIdColoc")
+            val RS = verificationIdColocation.toString()
+            val lol = RS.toInt()
+            //Log.d("patrick", "$lol")
 
             for (i in 0..2) {
             val colocation = Colocation.bdd(3)[i].id
-            if (colocation == intVerificationIdColoc) {
+            if (colocation == lol) {
                 val intent = Intent(this,VerificationEmailActivity::class.java)
                 startActivity(intent)
             }else{
