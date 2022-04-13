@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="nom_de_la_coloc">Nom de la coloc</string>
+    <string name="gere_ta_coloc">Gère ta coloc de A à Z</string>
+    <string name="nom_colocataire">Colocataire</string>
+    <string name="email_colocataire">Email coloc ...</string>
+    <string name="ajouter_colocataire">Ajouter</string>
+    <string name="suivant_vers_choisir_nom_colocataire">Suivant</string>
+    <string name="envoi_mail">Nous avons envoyé un mail de vérification à l adresse suivante :</string>
+    <string name="ex_email"><u>jeanmich@gmail.com</u></string>
+    <string name="renvoyer">Renvoyer</string>
+    <string name="verifie_tes_spams_avant_de_renvoyer">*vérifie tes spams avant de renvoyer</string>
+    <string name="revenir_sur_appli_apres_verif">Une fois ton adresse validée reviens sur cette page ou quitte et réouvre l’application</string>
+    <string name="rejoindre">Rejoindre</string>
+    <string name="identitfiant_de_la_coloc">Identitfiant de la coloc</string>
+    <string name="slogan">Gère ta coloc de A à Z</string>
+    <string name="ou">ou</string>
+    <string name="creer_colocation">Créer une colocation</string>
+    <string name="title_activity_identification">identificationActivity</string>
+    <string name="qui_es_tu">Qui es-tu ?</string>
+    <string name="nom">nom colocataire</string>
+    <string name="verifier_mon_mail">Vérifier mon mail</string>
+
+    <!-- BOTTOM NAVIGATION VIEW -->
+    <string name="bottom_navigation_menu_rappels">Rappels</string>
+    <string name="bottom_navigation_menu_depenses">Depenses</string>
+    <string name="bottom_navigation_menu_liste">Liste</string>
+    <string name="bottom_navigation_menu_reglages">Reglages</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Paramètres -->
+    <string name="parametres">Paramètres</string>
+    <string name="mon_surnom">Mon surnom</string>
+    <string name="mon_surnom_value">Axel</string>
+    <string name="passer_ma_couronne"><u>passer ma couronne</u></string>
+    <string name="mail_coloc_value">axelmolines@gmail.com</string>
+    <string name="quitter_la_coloc">Quitter la coloc</string>
+    <string name="valider">Valider</string>
+    <string name="a_qui_souhaites_tu_passer_la_couronne">A qui souhaites-tu passer la couronne ?</string>
+    <string name="es_tu_s_r_de_vouloir_quitter_ta_coloc">Es-tu sûr de vouloir quitter ta coloc ?</string>
+    <string name="annuler">Annuler</string>
+    <string name="oui">Oui</string>
+</resources>
