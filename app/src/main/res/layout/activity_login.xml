@@ -140,8 +140,7 @@
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                >
+                android:textSize="20sp">
 
             </Button>
         </LinearLayout>

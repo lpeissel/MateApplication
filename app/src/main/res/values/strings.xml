@@ -41,4 +41,7 @@
     <string name="es_tu_s_r_de_vouloir_quitter_ta_coloc">Es-tu sûr de vouloir quitter ta coloc ?</string>
     <string name="annuler">Annuler</string>
     <string name="oui">Oui</string>
+    <string name="surnomcoloc">surnomColoc</string>
+    <string name="textview">textview</string>
+    <string name="colocSupp">Vous avez quitter votre colocation !</string>
 </resources>

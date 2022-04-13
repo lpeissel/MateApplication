@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Application">
         <activity
-            android:name=".IdentificationColocataireActivity"
+            android:name=".QuitterColocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PasserCouronneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParametresActivity"
             android:exported="false" />
         <activity
             android:name=".CreerUneColocationActivity"

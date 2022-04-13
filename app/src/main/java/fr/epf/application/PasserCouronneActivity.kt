@@ -3,11 +3,9 @@ package fr.epf.application
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class VerificationEmailActivity : AppCompatActivity() {
+class PasserCouronneActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_verification_email)
+        setContentView(R.layout.activity_passer_couronne)
     }
 }
-
-//PENSEZ A PASSER LA SESSION ACTIVVE EN TRUE POUR RECUP LES INFOS DU COLOC CONNECTE

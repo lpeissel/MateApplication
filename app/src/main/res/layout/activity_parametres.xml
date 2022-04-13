@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".ParametresActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_marginStart="27dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo_mate_sans_titre">
+        </ImageView>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/parametres"
+            android:textColor="@color/gris_fonce"
+            android:textSize="35sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginStart="27dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/mon_surnom"
+                android:textColor="@color/gris_fonce"
+                android:textSize="20sp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/nom_coloc_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/surnomcoloc"
+                android:textColor="@color/gris_clair"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/passer_ma_couronne_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_crown"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/passer_ma_couronne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fontFamily="@font/poppins_medium_italic"
+                android:text="@string/passer_ma_couronne"
+                android:textColor="@color/bleu_moyen"
+                android:textSize="12sp"
+                android:focusable="true"
+                android:layout_marginStart="5dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_line_parametres" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="27dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/mon_surnom"
+                android:textColor="@color/gris_fonce"
+                android:textSize="20sp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mail_coloc_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/mail_coloc_value"
+                android:textColor="@color/gris_clair"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_line_parametres"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_quitter_coloc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn_quitter"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/quitter_la_coloc"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="20sp">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/message_quitter_coloc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*pour quittez la coloc, passe ta couronne à un autre utilisateur"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
