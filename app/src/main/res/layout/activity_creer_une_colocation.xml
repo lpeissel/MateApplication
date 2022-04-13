@@ -90,32 +90,32 @@
             android:textColor="#3F4148"
             android:textSize="15sp" />
 
-            <EditText
-                android:id="@+id/text_input_nom_colocataire1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/nom_colocataire_input"
-                android:fontFamily="@font/poppins_medium_italic"
-                android:hint="@string/nom_colocataire"
-                android:paddingStart="10sp"
-                android:textColor="#9E9E9E"
-                android:textColorHint="#9E9E9E"
-                android:textSize="15sp" />
+        <EditText
+            android:id="@+id/text_input_nom_colocataire1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/nom_colocataire_input"
+            android:fontFamily="@font/poppins_medium_italic"
+            android:hint="@string/nom_colocataire"
+            android:paddingStart="10sp"
+            android:textColor="#9E9E9E"
+            android:textColorHint="#9E9E9E"
+            android:textSize="15sp" />
 
 
-            <EditText
-                android:id="@+id/text_input_email_colocataire1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/email_colocataire_input"
-                android:fontFamily="@font/poppins_medium_italic"
-                android:hint="@string/email_colocataire"
-                android:paddingStart="10sp"
-                android:textColor="#9E9E9E"
-                android:textColorHint="#9E9E9E"
-                android:textSize="15sp" />
+        <EditText
+            android:id="@+id/text_input_email_colocataire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/email_colocataire_input"
+            android:fontFamily="@font/poppins_medium_italic"
+            android:hint="@string/email_colocataire"
+            android:paddingStart="10sp"
+            android:textColor="#9E9E9E"
+            android:textColorHint="#9E9E9E"
+            android:textSize="15sp" />
 
     </LinearLayout>
 
