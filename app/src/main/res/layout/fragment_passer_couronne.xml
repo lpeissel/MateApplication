@@ -135,7 +135,7 @@
             android:id="@+id/btn_valider_passage_couronne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_btn_creer"
+            android:background="@drawable/classique_bouton"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/valider"
             android:textColor="@color/white"

@@ -10,5 +10,9 @@
     <color name="gris_tres_clair">#9E9E9E</color>
     <color name="gris_clair">#777778</color>
     <color name="gris_fonce">#3F4148</color>
-    <color name="bleu_moyen">#347BFF</color>
+    <color name="bleu_moyen">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">@android:color/holo_green_dark</color>
+    <color name="colorAccent">#000000</color>
 </resources>

@@ -10,14 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Application">
         <activity
+            android:name=".NommerColocationActivity"
+            android:exported="false" />
+        <activity
             android:name=".NavigationBottomActivity"
-            android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".IdentificationColocataireActivity"
             android:exported="false" />
@@ -28,9 +25,6 @@
             android:name=".PasserCouronneActivity"
             android:exported="false" />
         <activity
-            android:name=".ParametresActivity"
-            android:exported="false"/>
-        <activity
             android:name=".CreerUneColocationActivity"
             android:exported="false" />
         <activity
@@ -38,8 +32,17 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false">
+            android:exported="false"/>
+        <activity android:name=".ListeActivity"
+            android:exported="true">
+        <intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+            <action android:name="android.intent.action.MAIN" />
+        </intent-filter>
         </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

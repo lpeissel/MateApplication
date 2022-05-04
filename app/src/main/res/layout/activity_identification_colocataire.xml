@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
     android:orientation="vertical"
-    android:weightSum="7"
+    android:weightSum="9"
     tools:context=".IdentificationColocataireActivity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:orientation="vertical"
         android:weightSum="2"
         android:gravity="center_horizontal">
@@ -65,11 +65,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:fontFamily="@font/poppins_semibold"
+                android:fontFamily="@font/poppins_bold"
                 android:text="@string/qui_es_tu"
                 android:textColor="#095CF7"
-                android:textSize="20sp">
-            </TextView>
+                android:textSize="20sp"></TextView>
 
         </LinearLayout>
 
@@ -80,10 +79,10 @@
             android:background="@drawable/ic_btn_identification_colocataire"
             android:fontFamily="@font/poppins_medium"
             android:text="@string/nom"
-            android:textColor="#3F4148"
-            android:textColorHint="#3F4148"
+            android:textColor="#ffffff"
             android:textAllCaps="false"
             android:textSize="15sp"
+            android:gravity="center"
             android:layout_marginBottom="10dp">
 
         </Button>
@@ -93,10 +92,11 @@
             android:id="@+id/btn_coloc2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:background="@drawable/ic_btn_identification_colocataire"
             android:fontFamily="@font/poppins_medium"
             android:text="@string/nom"
-            android:textColor="#3F4148"
+            android:textColor="#ffffff"
             android:textAllCaps="false"
             android:textSize="15sp"
             android:layout_marginBottom="10dp">
@@ -107,10 +107,11 @@
             android:id="@+id/btn_coloc3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:background="@drawable/ic_btn_identification_colocataire"
             android:fontFamily="@font/poppins_medium"
             android:text="@string/nom"
-            android:textColor="#3F4148"
+            android:textColor="#ffffff"
             android:textAllCaps="false"
             android:textSize="15sp"
             android:layout_marginBottom="10dp">
@@ -132,7 +133,7 @@
             android:id="@+id/btn_verifier_mail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_btn_creer"
+            android:background="@drawable/classique_bouton"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/verifier_mon_mail"
             android:textColor="#FFFFFF"

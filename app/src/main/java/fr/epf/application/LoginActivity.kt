@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
             for (i in 0..2) {
             val colocation = Colocation.bdd(3)[i].id
             if (colocation == lol) {
-                val intent = Intent(this,VerificationEmailActivity::class.java)
+                val intent = Intent(this,IdentificationColocataireActivity::class.java)
                 startActivity(intent)
             }else{
 
@@ -36,7 +36,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         creerColocation.setOnClickListener {
-            val intent = Intent(this,CreerUneColocationActivity::class.java)
+            val intent = Intent(this,NommerColocationActivity::class.java)
             startActivity(intent)
         }
 
