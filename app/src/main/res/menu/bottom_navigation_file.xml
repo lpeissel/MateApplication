@@ -9,12 +9,12 @@
         android:id="@+id/onglet_depenses"
         android:enabled="true"
         android:icon="@drawable/icon_depenses"
-        android:title="@string/bottom_navigation_menu_depenses"
+        android:title="Dépenses"
     />
     <item
         android:id="@+id/placeholder"
         android:icon="@drawable/icon_add"
-        android:title=""
+        android:title="Équilibre"
         />
     <item
         android:id="@+id/onglet_liste"
